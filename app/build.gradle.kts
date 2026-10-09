@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.forumapp"
+    namespace = "ru.lspdforum"
     compileSdk = 36
 
     signingConfigs {
@@ -16,11 +16,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.forumapp"
+        applicationId = "ru.lspdforum"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
     }
 
     buildTypes {
